@@ -1,0 +1,43 @@
+body {
+  border: 1px solid black;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  grid-column: 1;
+  gap: 10px;
+}
+
+.hidden {
+  /* display: none; */
+}
+
+button {
+  text-decoration: none;
+}
+
+.books-container {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.book {
+  border: 1px solid black;
+  width: 15vw;
+}
