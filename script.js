@@ -1,9 +1,11 @@
-function Book(title, pages, author, read) {
-  this.id = Math.random().toString().substring(2, 7); //Unique ID for each book
-  this.title = title;
-  this.pages = pages;
-  this.author = author;
-  this.read = read;
+class Book {
+  constructor(title, pages, author, read) {
+    this.id = Math.random().toString().substring(2, 7); //Unique ID for each book
+    this.title = title;
+    this.pages = pages;
+    this.author = author;
+    this.read = read;
+  }
 }
 
 const book1 = new Book("Wow", 9, "Chris", false);
